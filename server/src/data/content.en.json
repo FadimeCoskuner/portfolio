@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "name": "Fadime Mutlu",
+    "firstName": "Fadime",
+    "lastName": "Mutlu",
+    "initials": "FM",
+    "role": "Frontend Developer",
+    "title": "Computer Engineer",
+    "location": "Konya, Türkiye",
+    "email": "fadimeecoskuner@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/fadimecoskuner",
+    "github": "https://github.com/FadimeCoskuner"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "services": "What I Do",
+    "projects": "Projects",
+    "lab": "Lab",
+    "education": "Education",
+    "faq": "Questions",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "role": "Frontend Developer.",
+    "intro": "*Fadime Mutlu.* I build end-to-end web solutions with React, Next.js and TypeScript, from admin panels and corporate websites to Apps Script automations and Node.js APIs.",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "label": "About",
+    "title": "A developer who turns designs into code and ideas into *products people use.*",
+    "paragraphs": [
+      "I hold a B.Sc. in Computer Engineering from Necmettin Erbakan University and I'm currently pursuing my M.Sc. in the same field. I started my career as an intern engineer at Armiya Bilgi Teknolojileri during my final year.",
+      "For about three years I worked as a software developer at Konya Metropolitan Municipality's Kapsül Technology Platform. I built admin panels, corporate websites and automation portals that teams use every day, and took ownership of API integration, Git workflows and deployment alongside the interface."
+    ],
+    "card": {
+      "fileName": "fadime.profile.ts",
+      "fields": [
+        { "key": "role", "value": "\"Frontend Developer\"" },
+        { "key": "location", "value": "\"Konya, Türkiye\"" },
+        { "key": "stack", "value": "[\"React\", \"Next.js\", \"TypeScript\", \"Node.js\"]" },
+        { "key": "studying", "value": "\"M.Sc. Computer Engineering\"" },
+        { "key": "openToWork", "value": "true" }
+      ],
+      "comment": "// from interface to production",
+      "footer": "> ready"
+    }
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "Three years, *dozens of screens* and products running in production.",
+    "items": [
+      {
+        "period": "Oct 2023 — Sep 2026",
+        "company": "Kapsül Technology Platform",
+        "org": "Konya Metropolitan Municipality",
+        "role": "Software Developer",
+        "bullets": [
+          "Built scalable, reusable component architectures with React.js, Next.js and TypeScript; designed responsive interfaces with Tailwind CSS.",
+          "Owned frontend development across several applications, including an admin panel, a mentor portal and the corporate website.",
+          "Built backend integrations with Google Apps Script and supported deployment steps such as builds and environment variables."
+        ],
+        "tags": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Apps Script", "Git"]
+      },
+      {
+        "period": "Jan 2023 — Sep 2023",
+        "company": "Armiya Bilgi Teknolojileri",
+        "org": "Intern → Engineer",
+        "role": "Computer Engineer",
+        "bullets": [
+          "Developed dynamic web interfaces with HTML, CSS, Bootstrap and PHP, and built a WordPress-based website.",
+          "Designed interfaces with Figma and Photoshop; contributed to database management and to planning, testing and integration."
+        ],
+        "tags": ["HTML", "CSS", "Bootstrap", "PHP", "WordPress", "Figma"]
+      }
+    ]
+  },
+  "services": {
+    "label": "What I Do",
+    "title": "A workflow that starts with the interface and *ends with the data.*",
+    "items": [
+      {
+        "title": "Interface",
+        "description": "I turn a design into an interface that actually works in the browser. With React and Next.js I build components as reusable pieces, and TypeScript helps me catch mistakes while I write. Making a page feel equally polished on a phone and a wide screen is part of the job."
+      },
+      {
+        "title": "Admin panels",
+        "description": "Dashboards, filterable tables, modal-based flows and permission matrices. I keep data flow and state management tidy so an admin can do their daily work from a single screen, quickly and without errors."
+      },
+      {
+        "title": "Automation",
+        "description": "With Google Apps Script and Google Sheets I move manual processes online: reporting portals, PDF export, Drive integration, automatic email notifications and role-based access."
+      },
+      {
+        "title": "Services",
+        "description": "With Node.js and Express I write the REST APIs the interface needs. Through validation, error handling and a modular router structure, I make sure the front and the back speak the same language."
+      }
+    ],
+    "tags": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Apps Script", "Figma"]
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Production becomes visible *through delivered work.*",
+    "visit": "Visit the site",
+    "teamNote": "Team project",
+    "featured": [
+      {
+        "id": "ktp-admin",
+        "year": "2025",
+        "kind": "panel",
+        "title": "KTP Admin Panel",
+        "meta": "Admin panel · Dashboard",
+        "description": "A panel that manages all of Kapsül Technology Platform's content and workflows in one place. We turned static content such as events, announcements and quizzes into dynamic data.",
+        "highlights": ["Live stat cards and quick-action shortcuts", "Google Forms-style dynamic form builder: conditional fields, consent, QR code, quiz mode", "Permission matrix so every admin only sees the modules they're allowed to"],
+        "tags": ["React", "TypeScript", "Tailwind CSS"],
+        "url": "https://ktpadmin.kapsul.org.tr/"
+      },
+      {
+        "id": "ktp-website",
+        "year": "2024",
+        "kind": "web",
+        "title": "Kapsül Technology Platform Website",
+        "meta": "Corporate site · Bilingual · Light/dark theme",
+        "description": "The platform's corporate website, with Turkish/English content, light and dark themes, and dynamic pages fed by the admin panel.",
+        "highlights": ["Bilingual (TR/EN) and theme support", "Dynamic content modules", "Build and domain configuration"],
+        "tags": ["React", "TypeScript", "Tailwind CSS"],
+        "url": "https://www.kapsul.org.tr/"
+      },
+      {
+        "id": "mentor",
+        "year": "2025",
+        "kind": "panel",
+        "title": "Mentor Pool System",
+        "meta": "Requests · Matching · Tracking",
+        "description": "A system that digitises mentoring end to end: students create requests, mentors manage them and admins handle the matching.",
+        "highlights": ["Mentor sign-up, login and dashboard screens", "Three-column (mentor–request–detail) admin view with live metrics", "Monthly request quotas and automatic email notifications"],
+        "tags": ["React", "Apps Script", "Google Sheets"],
+        "url": "https://mentor.kapsul.org.tr/"
+      },
+      {
+        "id": "portals",
+        "year": "2024 — 2026",
+        "kind": "sheet",
+        "title": "Corporate Automation Portals",
+        "meta": "Google Apps Script · 5 portals",
+        "description": "I designed and built five portals, used by different units of the organisation, end to end on Google Apps Script and Google Sheets.",
+        "highlights": ["Monthly Activity Report Portal: role-based access, meeting notes, PDF export", "Overtime Tracking & OHS Risk Analysis portals", "Community Support and Technical Trip application portals"],
+        "tags": ["Apps Script", "Google Sheets", "Google Drive"]
+      }
+    ],
+    "othersTitle": "Other work",
+    "others": [
+      { "title": "Team Management System", "meta": "React · TypeScript · REST API", "description": "Creating, updating and listing team and user data, with filter, search, table and modal components.", "url": "https://takim.kapsul.org.tr/" },
+      { "title": "HR Automation", "meta": "React · TypeScript", "description": "All interfaces for employee management, leave/report tracking and performance reviews.", "url": "https://kale.kapsul.org.tr/hr-automation/" },
+      { "title": "Benim Kampüsüm", "meta": "Next.js · TypeScript · Tailwind CSS", "description": "A campus platform for students and academics with authentication and role-based access.", "badge": "Hackathon award" },
+      { "title": "Water Hackathon Website", "meta": "React · Tailwind CSS", "description": "Event website for the Water Hackathon, built from scratch.", "url": "https://suhackathonu.kapsul.org.tr/" },
+      { "title": "WordPress Sites", "meta": "WordPress · Themes · Plugins", "description": "Mobile-friendly WordPress sites for small businesses and personal projects." }
+    ]
+  },
+  "lab": {
+    "label": "Lab",
+    "title": "Node.js projects I *keep building* as I learn.",
+    "subtitle": "Work from the TNC Group Node.js training. Each one is open on GitHub, and this section grows as I add new features.",
+    "repo": "Code",
+    "status": { "dev": "In progress", "done": "Completed" },
+    "items": [
+      { "title": "Notebook", "description": "A note app that saves to JSON with fs; terminal and web UI, done marks, search.", "tags": ["Express", "fs"], "folder": "notebook", "status": "dev" },
+      { "title": "Library System", "description": "A modular API with books, members and loans modules; borrowing and return rules.", "tags": ["Router", "Modules"], "folder": "library-system", "status": "dev" },
+      { "title": "My Bookshelf", "description": "A full CRUD book API with a library-themed UI.", "tags": ["REST", "CRUD"], "folder": "books-api", "status": "dev" },
+      { "title": "Product Catalog", "description": "A product API with price and stock validation, category filters and sorting.", "tags": ["Validation", "Query"], "folder": "product-catalog", "status": "dev" },
+      { "title": "Task Tracker", "description": "User and task modules, /users/:id/tasks and a progress bar.", "tags": ["Router", "Relations"], "folder": "user-tasks-api", "status": "dev" },
+      { "title": "Digital Business Card", "description": "A 3D flippable business card with front and back faces.", "tags": ["HTML", "CSS 3D"], "folder": "business-card", "status": "done" }
+    ]
+  },
+  "education": {
+    "label": "Education",
+    "title": "One degree, and *one journey still in progress.*",
+    "items": [
+      { "degree": "Computer Engineering", "level": "M.Sc.", "school": "Necmettin Erbakan University · Graduate School of Natural Sciences", "period": "2024 — Present" },
+      { "degree": "Computer Engineering", "level": "B.Sc.", "school": "Necmettin Erbakan University · Ahmet Cengiz Faculty of Engineering", "period": "2019 — 2023" }
+    ],
+    "coursesTitle": "Courses & certificates",
+    "courses": [
+      { "name": "AI Summit", "org": "BTK Academy", "period": "2024" },
+      { "name": "Business Analysis", "org": "Kapsül Technology Platform", "period": "2024" },
+      { "name": "Photoshop", "org": "Public Education Center", "period": "2024" },
+      { "name": "UI / UX", "org": "Kapsül Technology Platform", "period": "2023" },
+      { "name": "PHP Fundamentals", "org": "KOMEK", "period": "2023" },
+      { "name": "Web Design", "org": "KOMEK", "period": "2021" },
+      { "name": "C++ Programming", "org": "KOMEK", "period": "2021" },
+      { "name": "Advanced Excel", "org": "KOMEK", "period": "2021" }
+    ]
+  },
+  "faq": {
+    "label": "Questions",
+    "title": "Short answers to *what you might wonder.*",
+    "items": [
+      { "q": "Which technologies do you work with?", "a": "Mostly React, Next.js, TypeScript and Tailwind CSS. On the back end I build REST APIs with Node.js/Express and automations with Google Apps Script. I use Git and GitHub for version control." },
+      { "q": "What kinds of projects have you worked on?", "a": "Admin panels and dashboards, corporate websites, systems that run business processes such as mentoring and HR, and automation portals built on Google Sheets." },
+      { "q": "How do you work?", "a": "I start by understanding what the person using the screen needs to get done. Then I build components as reusable pieces, keep the data flow simple, and share work with my team regularly through Git." },
+      { "q": "Are you still learning?", "a": "Yes. I'm continuing my M.Sc. in Computer Engineering, and I'm currently deepening my back-end skills through the TNC Group Node.js training. The projects in the Lab section come from that." },
+      { "q": "Are you open to new opportunities?", "a": "Yes. For frontend-focused or full-stack roles and collaborations, you can reach me by email or on LinkedIn." }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Have an idea? *Let's talk.*",
+    "subtitle": "Write to me about a new project, a job opportunity, or just to say hello. I usually reply within a few days.",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message",
+      "send": "Send",
+      "sending": "Sending"
+    },
+    "messages": {
+      "sent": "Thank you, your message reached me.",
+      "required": "Please fill in all fields.",
+      "invalidEmail": "Please enter a valid email address.",
+      "tooLong": "The message can be at most 2000 characters.",
+      "error": "Something went wrong, please try again later."
+    },
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "footer": {
+    "bigWord": "MUTLU",
+    "lineStart": "Interface. Panel.",
+    "lineEmphasis": "Automation.",
+    "built": "React · TypeScript · Tailwind CSS · Node.js",
+    "backToTop": "Back to top"
+  }
+}

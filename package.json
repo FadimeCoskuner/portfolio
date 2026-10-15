@@ -1,0 +1,15 @@
+{
+  "name": "fadime-mutlu-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Fadime Mutlu kişisel web sitesi (React + TypeScript + Tailwind CSS + Node.js)",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently -n server,client -c magenta,cyan \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

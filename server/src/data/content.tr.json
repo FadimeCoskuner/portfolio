@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "name": "Fadime Mutlu",
+    "firstName": "Fadime",
+    "lastName": "Mutlu",
+    "initials": "FM",
+    "role": "Frontend Developer",
+    "title": "Bilgisayar Mühendisi",
+    "location": "Konya, Türkiye",
+    "email": "fadimeecoskuner@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/fadimecoskuner",
+    "github": "https://github.com/FadimeCoskuner"
+  },
+  "nav": {
+    "about": "Hakkımda",
+    "experience": "Deneyim",
+    "services": "Ne Yapıyorum",
+    "projects": "Projeler",
+    "lab": "Laboratuvar",
+    "education": "Eğitim",
+    "faq": "Sorular",
+    "contact": "İletişim",
+    "menu": "Menü",
+    "close": "Kapat"
+  },
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "role": "Frontend Developer.",
+    "intro": "*Fadime Mutlu.* React, Next.js ve TypeScript ile yönetim panellerinden kurumsal sitelere, Apps Script otomasyonlarından Node.js API'lerine kadar uçtan uca web çözümleri geliştiriyorum.",
+    "scroll": "Kaydır"
+  },
+  "about": {
+    "label": "Hakkımda",
+    "title": "Tasarımı koda, fikri *kullanılan bir ürüne* dönüştüren bir geliştirici.",
+    "paragraphs": [
+      "Necmettin Erbakan Üniversitesi'nde Bilgisayar Mühendisliği lisansımı tamamladım, aynı alanda yüksek lisansıma devam ediyorum. Kariyerime son sınıftayken Armiya Bilgi Teknolojileri'nde stajyer mühendis olarak başladım.",
+      "Yaklaşık üç yıl boyunca Konya Büyükşehir Belediyesi Kapsül Teknoloji Platformu'nda yazılım geliştirici olarak çalıştım. Yönetim panelleri, kurumsal web siteleri ve birimlerin her gün kullandığı otomasyon portalları geliştirdim; arayüzün yanında API entegrasyonu, Git ve canlıya alma süreçlerinde de sorumluluk aldım."
+    ],
+    "card": {
+      "fileName": "fadime.profile.ts",
+      "fields": [
+        { "key": "role", "value": "\"Frontend Developer\"" },
+        { "key": "location", "value": "\"Konya, Türkiye\"" },
+        { "key": "stack", "value": "[\"React\", \"Next.js\", \"TypeScript\", \"Node.js\"]" },
+        { "key": "studying", "value": "\"Bilgisayar Müh. Yüksek Lisans\"" },
+        { "key": "openToWork", "value": "true" }
+      ],
+      "comment": "// arayüzden canlıya",
+      "footer": "> hazır"
+    }
+  },
+  "experience": {
+    "label": "Deneyim",
+    "title": "Üç yıl, *onlarca ekran* ve canlıda çalışan ürünler.",
+    "items": [
+      {
+        "period": "Ekim 2023 — Eylül 2026",
+        "company": "Kapsül Teknoloji Platformu",
+        "org": "Konya Büyükşehir Belediyesi",
+        "role": "Yazılım Geliştirici",
+        "bullets": [
+          "React.js, Next.js ve TypeScript ile ölçeklenebilir, yeniden kullanılabilir bileşen yapıları geliştirdim; Tailwind CSS ile responsive arayüzler tasarladım.",
+          "Yönetim paneli, mentör portalı ve kurumsal web sitesi dahil birden fazla uygulamada frontend sorumluluğu üstlendim.",
+          "Google Apps Script ile backend entegrasyonları yaptım; derleme ve ortam değişkenleri gibi canlıya alma adımlarına destek verdim."
+        ],
+        "tags": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Apps Script", "Git"]
+      },
+      {
+        "period": "Ocak 2023 — Eylül 2023",
+        "company": "Armiya Bilgi Teknolojileri",
+        "org": "Stajyer → Mühendis",
+        "role": "Bilgisayar Mühendisi",
+        "bullets": [
+          "HTML, CSS, Bootstrap ve PHP ile dinamik web arayüzleri geliştirdim; WordPress tabanlı bir web sitesi hazırladım.",
+          "Figma ve Photoshop ile arayüz tasarımı yaptım; veri tabanı yönetimi ile planlama, test ve entegrasyon süreçlerine katkı sağladım."
+        ],
+        "tags": ["HTML", "CSS", "Bootstrap", "PHP", "WordPress", "Figma"]
+      }
+    ]
+  },
+  "services": {
+    "label": "Ne Yapıyorum",
+    "title": "Arayüzle başlayan, *veriyle tamamlanan* bir iş akışı.",
+    "items": [
+      {
+        "title": "Arayüz",
+        "description": "Bir tasarımı tarayıcıda gerçekten çalışan bir arayüze dönüştürüyorum. React ve Next.js ile bileşenleri yeniden kullanılabilir parçalar olarak kuruyor, TypeScript ile hataları yazarken yakalıyorum. Sayfanın telefonda da geniş ekranda da aynı özenle görünmesi işin bir parçası."
+      },
+      {
+        "title": "Yönetim panelleri",
+        "description": "Gösterge panelleri, filtrelenebilir tablolar, modal tabanlı akışlar ve yetki matrisleri. Bir yöneticinin günlük işini tek ekrandan, hızlı ve hatasız yapabilmesi için veri akışını ve state yönetimini düzenli tutuyorum."
+      },
+      {
+        "title": "Otomasyon",
+        "description": "Google Apps Script ve Google Sheets ile kurumların elle yürüttüğü süreçleri dijitale taşıyorum: rapor portalları, PDF dışa aktarma, Drive entegrasyonu, otomatik e-posta bildirimleri ve rol bazlı erişim."
+      },
+      {
+        "title": "Servisler",
+        "description": "Node.js ve Express ile arayüzün ihtiyaç duyduğu REST API'leri yazıyorum. Doğrulama, hata yönetimi ve modüler router yapısıyla ön yüz ve arka yüzün aynı dili konuşmasına dikkat ediyorum."
+      }
+    ],
+    "tags": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Apps Script", "Figma"]
+  },
+  "projects": {
+    "label": "Projeler",
+    "title": "Üretim, *teslim edilen işle* görünür olur.",
+    "visit": "Siteyi ziyaret et",
+    "teamNote": "Ekip projesi",
+    "featured": [
+      {
+        "id": "ktp-admin",
+        "year": "2025",
+        "kind": "panel",
+        "title": "KTP Yönetim Paneli",
+        "meta": "Yönetim paneli · Gösterge paneli",
+        "description": "Kapsül Teknoloji Platformu'nun tüm içerik ve süreçlerini tek noktadan yöneten panel. Etkinlik, duyuru ve bilgi testi gibi statik içerikleri dinamik veriye dönüştürdük.",
+        "highlights": ["Anlık istatistik kartları ve hızlı işlem kısayolları", "Google Forms tarzı dinamik form oluşturucu: koşullu alanlar, KVKK onayı, QR kod, quiz modu", "Yetki matrisi ile her yöneticinin yalnızca izinli modülleri görmesi"],
+        "tags": ["React", "TypeScript", "Tailwind CSS"],
+        "url": "https://ktpadmin.kapsul.org.tr/"
+      },
+      {
+        "id": "ktp-website",
+        "year": "2024",
+        "kind": "web",
+        "title": "Kapsül Teknoloji Platformu Web Sitesi",
+        "meta": "Kurumsal site · Çift dil · Açık/koyu tema",
+        "description": "Platformun kurumsal web sitesi. Türkçe/İngilizce içerik ve açık/koyu tema desteğiyle, yönetim panelinden beslenen dinamik sayfalar.",
+        "highlights": ["Çift dil (TR/EN) ve tema desteği", "Dinamik içerik modülleri", "Build ve alan adı yapılandırması"],
+        "tags": ["React", "TypeScript", "Tailwind CSS"],
+        "url": "https://www.kapsul.org.tr/"
+      },
+      {
+        "id": "mentor",
+        "year": "2025",
+        "kind": "panel",
+        "title": "Mentor Havuzu Sistemi",
+        "meta": "Talep · Eşleştirme · Takip",
+        "description": "Mentörlük sürecini uçtan uca dijitalleştiren sistem: öğrenciler talep oluşturuyor, mentörler talepleri yönetiyor, yöneticiler eşleştirme yapıyor.",
+        "highlights": ["Mentör kayıt, giriş ve panel ekranları", "Üç kolonlu (mentör–talep–detay) yönetim görünümü ve canlı metrikler", "Aylık talep kotası ve otomatik e-posta bildirimi"],
+        "tags": ["React", "Apps Script", "Google Sheets"],
+        "url": "https://mentor.kapsul.org.tr/"
+      },
+      {
+        "id": "portals",
+        "year": "2024 — 2026",
+        "kind": "sheet",
+        "title": "Kurumsal Otomasyon Portalları",
+        "meta": "Google Apps Script · 5 portal",
+        "description": "Kurumun farklı birimlerinin kullandığı beş portalı Google Apps Script ve Google Sheets altyapısı üzerinde uçtan uca tasarlayıp geliştirdim.",
+        "highlights": ["Aylık Faaliyet Rapor Portalı: rol bazlı erişim, toplantı notları, PDF dışa aktarma", "Mesai Takip Analiz · İSG Risk Analiz portalları", "Eklem Topluluk Destek · Teknik Gezi başvuru portalları"],
+        "tags": ["Apps Script", "Google Sheets", "Google Drive"]
+      }
+    ],
+    "othersTitle": "Diğer çalışmalar",
+    "others": [
+      { "title": "Takım Yönetim Sistemi", "meta": "React · TypeScript · REST API", "description": "Takım ve kullanıcı verilerinin oluşturulması, güncellenmesi ve listelenmesi; filtre, arama, tablo ve modal bileşenleri.", "url": "https://takim.kapsul.org.tr/" },
+      { "title": "İnsan Kaynakları Otomasyonu", "meta": "React · TypeScript", "description": "Çalışan yönetimi, izin-rapor takibi ve performans değerlendirme modüllerinin tüm arayüzleri.", "url": "https://kale.kapsul.org.tr/hr-automation/" },
+      { "title": "Benim Kampüsüm", "meta": "Next.js · TypeScript · Tailwind CSS", "description": "Öğrenci ve akademisyenler için kampüs platformu; kimlik doğrulama ve rol bazlı erişim.", "badge": "Hackathon ödülü" },
+      { "title": "Su Hackathonu Web Sitesi", "meta": "React · Tailwind CSS", "description": "Su Hackathonu etkinliği için sıfırdan geliştirilen tanıtım sitesi.", "url": "https://suhackathonu.kapsul.org.tr/" },
+      { "title": "WordPress Siteleri", "meta": "WordPress · Tema · Eklenti", "description": "Küçük işletmeler ve kişisel projeler için mobil uyumlu WordPress siteleri." }
+    ]
+  },
+  "lab": {
+    "label": "Laboratuvar",
+    "title": "Öğrenirken *geliştirmeye devam ettiğim* Node.js projeleri.",
+    "subtitle": "TNC Group Node.js eğitimi sürecinde yaptığım çalışmalar. Her biri GitHub'da açık; yeni özellikler ekledikçe burası da büyüyor.",
+    "repo": "Kod",
+    "status": { "dev": "Geliştiriliyor", "done": "Tamamlandı" },
+    "items": [
+      { "title": "Not Defteri", "description": "fs ile JSON'a kaydeden not uygulaması; terminal ve web arayüzü, tamamlandı işareti, arama.", "tags": ["Express", "fs"], "folder": "notebook", "status": "dev" },
+      { "title": "Kütüphane Sistemi", "description": "Kitap, üye ve ödünç modüllerinden oluşan modüler API; ödünç alma ve iade kuralları.", "tags": ["Router", "Modules"], "folder": "library-system", "status": "dev" },
+      { "title": "Kitaplığım", "description": "Tam CRUD kitap API'si ve kütüphane temalı ön yüz.", "tags": ["REST", "CRUD"], "folder": "books-api", "status": "dev" },
+      { "title": "Ürün Kataloğu", "description": "Fiyat ve stok doğrulamalı ürün API'si; kategori filtresi ve sıralama.", "tags": ["Validation", "Query"], "folder": "product-catalog", "status": "dev" },
+      { "title": "Görev Takip", "description": "Kullanıcı ve görev modülleri, /users/:id/tasks ve ilerleme çubuğu.", "tags": ["Router", "Relations"], "folder": "user-tasks-api", "status": "dev" },
+      { "title": "Dijital Kartvizit", "description": "3 boyutlu çevrilebilen, ön ve arka yüzlü kartvizit.", "tags": ["HTML", "CSS 3D"], "folder": "business-card", "status": "done" }
+    ]
+  },
+  "education": {
+    "label": "Eğitim",
+    "title": "Bir derece, *bir de devam eden* yolculuk.",
+    "items": [
+      { "degree": "Bilgisayar Mühendisliği", "level": "Yüksek Lisans", "school": "Necmettin Erbakan Üniversitesi · Fen Bilimleri Enstitüsü", "period": "2024 — Devam" },
+      { "degree": "Bilgisayar Mühendisliği", "level": "Lisans", "school": "Necmettin Erbakan Üniversitesi · Ahmet Cengiz Mühendislik Fakültesi", "period": "2019 — 2023" }
+    ],
+    "coursesTitle": "Kurslar ve sertifikalar",
+    "courses": [
+      { "name": "Yapay Zeka Zirvesi", "org": "BTK Akademi", "period": "2024" },
+      { "name": "İş Analizi", "org": "Kapsül Teknoloji Platformu", "period": "2024" },
+      { "name": "Photoshop", "org": "Halk Eğitim Merkezi", "period": "2024" },
+      { "name": "UI / UX", "org": "Kapsül Teknoloji Platformu", "period": "2023" },
+      { "name": "PHP Temel Seviye", "org": "KOMEK", "period": "2023" },
+      { "name": "Web Tasarımı", "org": "KOMEK", "period": "2021" },
+      { "name": "C++ Programlama", "org": "KOMEK", "period": "2021" },
+      { "name": "İleri Seviye Excel", "org": "KOMEK", "period": "2021" }
+    ]
+  },
+  "faq": {
+    "label": "Sorular",
+    "title": "Merak ettiklerine *kısa cevaplar.*",
+    "items": [
+      { "q": "Hangi teknolojilerle çalışıyorsun?", "a": "Ağırlıklı olarak React, Next.js, TypeScript ve Tailwind CSS. Arka tarafta Node.js/Express ile REST API'ler ve Google Apps Script ile otomasyonlar geliştiriyorum. Sürüm kontrolünde Git ve GitHub kullanıyorum." },
+      { "q": "Ne tür projelerde yer aldın?", "a": "Yönetim panelleri ve gösterge panelleri, kurumsal web siteleri, mentörlük ve insan kaynakları gibi iş süreçlerini yöneten sistemler ve Google Sheets tabanlı otomasyon portalları." },
+      { "q": "Nasıl çalışıyorsun?", "a": "Önce ekranı kullanacak kişinin ne yapmak istediğini anlamaya çalışırım. Ardından bileşenleri yeniden kullanılabilir parçalar halinde kurar, veri akışını sade tutar ve Git ile ekibimle düzenli paylaşırım." },
+      { "q": "Hâlâ öğreniyor musun?", "a": "Evet. Bilgisayar Mühendisliği yüksek lisansıma devam ediyorum ve şu sıralar TNC Group Node.js eğitimiyle backend tarafını derinleştiriyorum. Laboratuvar bölümündeki projeler bu sürecin ürünü." },
+      { "q": "Yeni fırsatlara açık mısın?", "a": "Evet. Frontend ağırlıklı ya da full-stack pozisyonlar ve iş birlikleri için bana e-posta veya LinkedIn üzerinden ulaşabilirsin." }
+    ]
+  },
+  "contact": {
+    "label": "İletişim",
+    "title": "Bir fikrin mi var? *Konuşalım.*",
+    "subtitle": "Yeni bir proje, iş fırsatı ya da sadece merhaba demek için yazabilirsin. Genelde birkaç gün içinde dönüş yaparım.",
+    "form": {
+      "name": "Adın",
+      "email": "E-posta adresin",
+      "message": "Mesajın",
+      "send": "Gönder",
+      "sending": "Gönderiliyor"
+    },
+    "messages": {
+      "sent": "Teşekkürler, mesajın bana ulaştı.",
+      "required": "Lütfen tüm alanları doldur.",
+      "invalidEmail": "Geçerli bir e-posta adresi yaz.",
+      "tooLong": "Mesaj en fazla 2000 karakter olabilir.",
+      "error": "Bir sorun oluştu, lütfen daha sonra tekrar dene."
+    },
+    "copy": "Kopyala",
+    "copied": "Kopyalandı"
+  },
+  "footer": {
+    "bigWord": "MUTLU",
+    "lineStart": "Arayüz. Panel.",
+    "lineEmphasis": "Otomasyon.",
+    "built": "React · TypeScript · Tailwind CSS · Node.js",
+    "backToTop": "Başa dön"
+  }
+}

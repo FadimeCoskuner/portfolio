@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-server",
+  "version": "1.0.0",
+  "description": "Fadime Mutlu kişisel web sitesi - Node.js / Express API",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

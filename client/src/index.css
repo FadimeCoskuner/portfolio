@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+/* Sitenin renk ve yazı tipi ayarları: burada değiştirirsen her yerde değişir */
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-ink: #050505;        /* zemin */
+  --color-line: #1c1c1c;       /* ince çizgiler */
+  --color-muted: #8a8a8a;      /* soluk yazı */
+  --color-gold: #d9b38c;       /* şampanya vurgu */
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  background: var(--color-ink);
+}
+
+body {
+  @apply bg-ink font-sans font-light text-neutral-200 antialiased;
+  overflow-x: clip; /* telefonda sayfa yana kaymasın */
+}
+
+::selection {
+  background: rgba(217, 179, 140, 0.3);
+  color: #fff;
+}
+
+/* Büyük başlıklar: ince ve sıkı harf aralığı */
+.display {
+  font-weight: 300;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+/* Başlıktaki *vurgu* kısmı */
+.display em {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+/* Küçük, geniş aralıklı büyük harf etiketler (001 —— ABOUT) */
+.eyebrow {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+/* Arka plandaki ince ızgara çizgileri */
+.grid-bg {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 96px 96px;
+}
+
+/* Parlayan ışık çizgileri */
+.streak-h {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(186, 214, 255, 0.9), transparent);
+  box-shadow: 0 0 12px rgba(186, 214, 255, 0.6);
+}
+
+.streak-v {
+  width: 1px;
+  background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.85), transparent);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+}
+
+@keyframes drift-x {
+  0%, 100% { transform: translateX(0); opacity: 0.4; }
+  50% { transform: translateX(60px); opacity: 1; }
+}
+
+@keyframes drift-y {
+  0%, 100% { transform: translateY(0); opacity: 0.35; }
+  50% { transform: translateY(-50px); opacity: 1; }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+.animate-drift-x { animation: drift-x 9s ease-in-out infinite; }
+.animate-drift-y { animation: drift-y 11s ease-in-out infinite; }
+.animate-twinkle { animation: twinkle 4s ease-in-out infinite; }
+
+/* Kaydırınca beliren elemanlar (useReveal hook'u .is-visible ekler) */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 1s ease, transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Hareket azaltma tercihi olan kullanıcılar için animasyonları kapat */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .animate-drift-x, .animate-drift-y, .animate-twinkle { animation: none; }
+}

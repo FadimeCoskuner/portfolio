@@ -1,0 +1,5 @@
+node_modules/
+client/dist/
+
+# İletişim formundan gelen mesajlar kişisel bilgi içerir, GitHub'a gönderilmez
+server/src/data/messages.json
