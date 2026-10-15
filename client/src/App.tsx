@@ -11,6 +11,7 @@ import Projects from './components/Projects';
 import Services from './components/Services';
 import SideSocial from './components/SideSocial';
 import { useContent } from './hooks/useContent';
+import { usePointer } from './hooks/usePointer';
 import { useLang } from './hooks/usePreferences';
 import { useReveal } from './hooks/useReveal';
 
@@ -20,6 +21,9 @@ export default function App() {
 
   // İçerik geldiğinde / dil değiştiğinde beliren animasyonları başlat
   useReveal([content]);
+
+  // İmleci takip eden ışık efekti için fare konumu
+  usePointer();
 
   // API'ye ulaşılamadıysa (ör. server çalışmıyor)
   if (error && !content) {
@@ -47,6 +51,9 @@ export default function App() {
 
   return (
     <>
+      {/* Sayfa geneli: hafif film greni + imleci takip eden ışık */}
+      <div className="grain" aria-hidden />
+      <div className="spotlight" aria-hidden />
       <Navbar content={content} lang={lang} onLangChange={setLang} />
       <SideSocial content={content} />
       <main>

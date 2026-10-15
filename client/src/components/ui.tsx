@@ -46,14 +46,14 @@ export function Section({ id, index, label, title, children }: SectionProps) {
   );
 }
 
-// Köşeli, ince çerçeveli buton/bağlantı
+// Köşeli, ince çerçeveli buton/bağlantı (hover'da soldan beyazla dolar)
 export function OutlineLink({ href, children, external = false }: { href: string; children: ReactNode; external?: boolean }) {
   return (
     <a
       href={href}
       target={external ? '_blank' : undefined}
       rel={external ? 'noreferrer' : undefined}
-      className="eyebrow group inline-flex items-center gap-3 border border-neutral-700 px-6 py-4 text-white transition hover:border-white hover:bg-white hover:text-black"
+      className="fill-hover eyebrow group inline-flex items-center gap-3 border border-neutral-700 px-6 py-4 text-white transition-colors duration-500 hover:border-white hover:text-black"
     >
       {children}
       <ArrowUpRight className="h-3.5 w-3.5 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
