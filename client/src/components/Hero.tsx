@@ -49,8 +49,6 @@ export default function Hero({ content }: { content: Content }) {
         <span className="animate-twinkle absolute right-[17%] top-[64%] h-1.5 w-1.5 rounded-full bg-white" />
         <span className="animate-twinkle absolute left-[23%] top-[21%] h-1 w-1 rounded-full bg-neutral-400 [animation-delay:2s]" />
       </div>
-      {/* Alttan zemine yumuşak geçiş */}
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-ink" />
 
       <div className="relative mx-auto flex min-h-[100svh] max-w-7xl flex-col items-center justify-center px-5 pb-16 pt-32 text-center sm:px-10">
         {/* Konum rozeti */}

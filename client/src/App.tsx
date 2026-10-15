@@ -6,6 +6,7 @@ import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Lab from './components/Lab';
+import LightStreaks from './components/LightStreaks';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Services from './components/Services';
@@ -54,6 +55,7 @@ export default function App() {
       {/* Sayfa geneli: hafif film greni + imleci takip eden ışık */}
       <div className="grain" aria-hidden />
       <div className="spotlight" aria-hidden />
+      <LightStreaks />
       <Navbar content={content} lang={lang} onLangChange={setLang} />
       <SideSocial content={content} />
       <main>
